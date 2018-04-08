@@ -1,0 +1,86 @@
+.navbar-brand {
+  width: 100%;
+  text-align: center;
+  margin: 0 auto;
+  font-size: 18px !important;
+}
+
+#map-layer {
+  width: 100%;
+  height: 30vh;
+}
+
+#map {
+  width: 100%;
+  height: 30vh;
+}
+
+.hidden {
+  display: none;
+}
+
+.fixed {
+  position: fixed;
+  z-index: 999;
+  width: 100%;
+}
+
+#notificationPanel {
+  display: none;
+}
+
+.btn-lg {
+	background-color: #4CAF50 !important ;
+    border: none !important;
+    color: white !important;
+    padding: 20px !important;
+    text-align: center !important;
+    text-decoration: none !important;
+    display: inline-block !important;
+    font-size: 16px !important;
+    margin: 4px 2px !important;
+    cursor: pointer !important;
+	border-radius: 12px !important;
+}
+
+.btn-circle.btn-xl {
+    width: 150px;
+    height: 150px;
+    padding: 10px 16px;
+    border-radius: 100%;
+    font-size: 100px;
+    line-height: 1.33;
+}
+
+.btn-circle {
+    width: 150px;
+    height: 150px;
+    padding: 10px 16px;
+    border-radius: 100%;
+    text-align: center;
+    font-size: 44px;
+    line-height: 1.33;
+}
+
+#floating-panel {
+  position: absolute;
+  top: 10px;
+  left: 25%;
+  z-index: 5;
+  background-color: #fff;
+  padding: 5px;
+  border: 1px solid #999;
+  text-align: center;
+  font-family: 'Roboto','sans-serif';
+  line-height: 30px;
+  padding-left: 10px;
+}
+#warnings-panel {
+  width: 100%;
+  height:30vh%;
+  text-align: center;
+}
+
+.hidden {
+  display: none;
+}
